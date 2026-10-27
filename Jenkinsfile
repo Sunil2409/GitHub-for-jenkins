@@ -23,7 +23,7 @@ pipeline{
         }
         post{
             always{
-                cleansWs()
+                cleanWs()
             }
             success{
                 echo "pipeline succeeded, Build Number: ${BUILD_NUMBER}"

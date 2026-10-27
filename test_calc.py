@@ -12,7 +12,7 @@ class TestCalculator(unittest.TestCase):
     def test_mutiply(self):
         self.assertEqual(multiply(2,3),6)
 
-    def test_add(self):
+    def test_divide(self):
         self.assertEqual(divide(10,2),5)
         with self.assertRaises(ValueError):
             divide(10,0)
